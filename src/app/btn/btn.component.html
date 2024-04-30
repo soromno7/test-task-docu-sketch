@@ -1,0 +1,6 @@
+<h2 *ngIf="!counter">No clicks available</h2>
+<h2 *ngIf="counter">Number of available clicks is {{counter}}</h2>
+<button (click)="incrementCounter()">Click me!</button>
+<div class="container">
+  <fa-icon [icon]="mainIcon"></fa-icon>
+</div>
